@@ -38,6 +38,6 @@ jobs:
         with:
           # Upload entire repository
           path: '.'
-      - name: Deploy to GitHub Pages
+      - name: [![Deploy static content to Pages](https://github.com/Felipe7667/Felipe77769/actions/workflows/static.yml/badge.svg)](https://github.com/Felipe7667/Felipe77769/actions/workflows/static.yml)
         id: deployment
         uses: actions/deploy-pages@v4
